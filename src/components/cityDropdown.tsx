@@ -150,7 +150,7 @@ const CityDropdown: React.FC<CityDropdownProps> = ({ cities }) => {
               )}
             </button>
 
-            {/* City Options */}
+            {/* City Option*/}
             {filteredCities.length > 0 ? (
               filteredCities.map((city) => {
                 const isSelected = selectedCity === city;
