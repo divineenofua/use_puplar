@@ -92,8 +92,6 @@ border border-gray-700/50
  ```
 
 #### Performance Optimizations
-
-- Debounced Search: Prevents excessive re-filtering
 - Memoized Calculations: City lists and statistics
 - Selective Fetching: Only fetch data when needed
 - Optimized Re-renders: Zustand selective updates
